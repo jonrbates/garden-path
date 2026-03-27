@@ -1,0 +1,1472 @@
+[
+  {
+    "sentence": "The suspect showed the file deserved further investigation during the murder trial.",
+    "prefix": "The suspect showed the file",
+    "control": "The suspect showed the file to the detective voluntarily.",
+    "unambiguous": [
+      "The suspect showed that the file deserved further investigation during the murder trial."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The suspect sent the file deserved further investigation given the new evidence.",
+    "prefix": "The suspect sent the file",
+    "control": "The suspect sent the file to the wrong email address.",
+    "unambiguous": [
+      "The suspect who was sent the file deserved further investigation given the new evidence."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The corrupt politician mentioned the bill received unwelcome attention from southern voters.",
+    "prefix": "The corrupt politician mentioned the bill",
+    "control": "The corrupt politician mentioned the bill at the press conference.",
+    "unambiguous": [
+      "The corrupt politician mentioned that the bill received unwelcome attention from southern voters."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The corrupt politician handed the bill received unwelcome attention from southern voters.",
+    "prefix": "The corrupt politician handed the bill",
+    "control": "The corrupt politician handed the bill to the committee chair.",
+    "unambiguous": [
+      "The corrupt politician who was handed the bill received unwelcome attention from southern voters."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The woman maintained the mail disappeared mysteriously from her front porch.",
+    "prefix": "The woman maintained the mail",
+    "control": "The woman maintained the mail system for the entire office.",
+    "unambiguous": [
+      "The woman maintained that the mail disappeared mysteriously from her front porch."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The woman brought the mail disappeared mysteriously after reading the bad news in it.",
+    "prefix": "The woman brought the mail",
+    "control": "The woman brought the mail to the kitchen table.",
+    "unambiguous": [
+      "The woman who was brought the mail disappeared mysteriously after reading the bad news in it."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The boy found the chicken stayed surprisingly happy in the new barn.",
+    "prefix": "The boy found the chicken",
+    "control": "The boy found the chicken on the neighbor's property.",
+    "unambiguous": [
+      "The boy found that the chicken stayed surprisingly happy in the new barn."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The boy fed the chicken stayed surprisingly happy despite having a mild allergic reaction.",
+    "prefix": "The boy fed the chicken",
+    "control": "The boy fed the chicken from a small bucket.",
+    "unambiguous": [
+      "The boy who was fed the chicken stayed surprisingly happy despite having a mild allergic reaction."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The new doctor demonstrated the operation appeared increasingly likely to succeed.",
+    "prefix": "The new doctor demonstrated the operation",
+    "control": "The new doctor demonstrated the operation on a simulation model.",
+    "unambiguous": [
+      "The new doctor demonstrated that the operation appeared increasingly likely to succeed."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The new doctor offered the operation appeared increasingly likely to succeed in her career.",
+    "prefix": "The new doctor offered the operation",
+    "control": "The new doctor offered the operation to the patient free of charge.",
+    "unambiguous": [
+      "The new doctor who was offered the operation appeared increasingly likely to succeed in her career."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The professor noticed the grant gained more attention from marine biologists.",
+    "prefix": "The professor noticed the grant",
+    "control": "The professor noticed the grant amount was less than expected.",
+    "unambiguous": [
+      "The professor noticed that the grant gained more attention from marine biologists."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The professor awarded the grant gained more attention from marine biologists.",
+    "prefix": "The professor awarded the grant",
+    "control": "The professor awarded the grant to the most promising student.",
+    "unambiguous": [
+      "The professor who was awarded the grant gained more attention from marine biologists."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The technician reported the service stopped working almost immediately after the storm started.",
+    "prefix": "The technician reported the service",
+    "control": "The technician reported the service call to the dispatcher.",
+    "unambiguous": [
+      "The technician reported that the service stopped working almost immediately after the storm started."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The technician refused the service stopped working almost immediately after the argument.",
+    "prefix": "The technician refused the service",
+    "control": "The technician refused the service call because it was outside the warranty.",
+    "unambiguous": [
+      "The technician who was refused the service stopped working almost immediately after the argument."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The mechanic observed the truck needed several more hours to be repaired.",
+    "prefix": "The mechanic observed the truck",
+    "control": "The mechanic observed the truck from underneath the lift.",
+    "unambiguous": [
+      "The mechanic observed that the truck needed several more hours to be repaired."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The mechanic brought the truck needed several more hours to fully repair it.",
+    "prefix": "The mechanic brought the truck",
+    "control": "The mechanic brought the truck to the inspection station.",
+    "unambiguous": [
+      "The mechanic who was brought the truck needed several more hours to fully repair it."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The guitarist knew the song failed dramatically because of the tensions within the band.",
+    "prefix": "The guitarist knew the song",
+    "control": "The guitarist knew the song from his first band.",
+    "unambiguous": [
+      "The guitarist knew that the song failed dramatically because of the tensions within the band."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The guitarist assigned the song failed dramatically because he never practiced enough.",
+    "prefix": "The guitarist assigned the song",
+    "control": "The guitarist assigned the song to the opening act.",
+    "unambiguous": [
+      "The guitarist who was assigned the song failed dramatically because he never practiced enough."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The player revealed the bonus remained essentially the same as in the original contract.",
+    "prefix": "The player revealed the bonus",
+    "control": "The player revealed the bonus in a press conference.",
+    "unambiguous": [
+      "The player revealed that the bonus remained essentially the same as in the original contract."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The player paid the bonus remained essentially the same despite his sudden fame and wealth.",
+    "prefix": "The player paid the bonus",
+    "control": "The player paid the bonus in taxes the following year.",
+    "unambiguous": [
+      "The player who was paid the bonus remained essentially the same despite his sudden fame and wealth."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The recent hire claimed the job prepared many students for careers in media.",
+    "prefix": "The recent hire claimed the job",
+    "control": "The recent hire claimed the job after passing the probation period.",
+    "unambiguous": [
+      "The recent hire claimed that the job prepared many students for careers in media."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The recent hire offered the job prepared many students for careers in media.",
+    "prefix": "The recent hire offered the job",
+    "control": "The recent hire offered the job started the following Monday.",
+    "unambiguous": [
+      "The recent hire who was offered the job prepared many students for careers in media."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The assistant manager discovered the training seemed unnecessarily demanding for new staff.",
+    "prefix": "The assistant manager discovered the training",
+    "control": "The assistant manager discovered the training schedule had been changed.",
+    "unambiguous": [
+      "The assistant manager discovered that the training seemed unnecessarily demanding for new staff."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The assistant manager assigned the training seemed unnecessarily demanding to new staff.",
+    "prefix": "The assistant manager assigned the training",
+    "control": "The assistant manager assigned the training to the new recruits.",
+    "unambiguous": [
+      "The assistant manager who was assigned the training seemed unnecessarily demanding to new staff."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The mayor showed the document provided sufficient evidence to prove her innocence.",
+    "prefix": "The mayor showed the document",
+    "control": "The mayor showed the document at the public hearing.",
+    "unambiguous": [
+      "The mayor showed that the document provided sufficient evidence to prove her innocence."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The mayor sent the document provided sufficient evidence that it was simply blackmail.",
+    "prefix": "The mayor sent the document",
+    "control": "The mayor sent the document to the city council.",
+    "unambiguous": [
+      "The mayor who was sent the document provided sufficient evidence that it was simply blackmail."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The basketball player mentioned the contract created another controversy in the NBA.",
+    "prefix": "The basketball player mentioned the contract",
+    "control": "The basketball player mentioned the contract during the postgame interview.",
+    "unambiguous": [
+      "The basketball player mentioned that the contract created another controversy in the NBA."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The basketball player handed the contract created another controversy in the NBA.",
+    "prefix": "The basketball player handed the contract",
+    "control": "The basketball player handed the contract to the team lawyer.",
+    "unambiguous": [
+      "The basketball player who was handed the contract created another controversy in the NBA."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The engineer maintained the equipment required constant supervision from senior technicians.",
+    "prefix": "The engineer maintained the equipment",
+    "control": "The engineer maintained the equipment on a strict schedule.",
+    "unambiguous": [
+      "The engineer maintained that the equipment required constant supervision from senior technicians."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The engineer brought the equipment required constant supervision from senior technicians.",
+    "prefix": "The engineer brought the equipment",
+    "control": "The engineer brought the equipment to the construction site.",
+    "unambiguous": [
+      "The engineer who was brought the equipment required constant supervision from senior technicians."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The little girl found the lamb remained relatively calm despite the absence of its mother.",
+    "prefix": "The little girl found the lamb",
+    "control": "The little girl found the lamb shivering in the rain.",
+    "unambiguous": [
+      "The little girl found that the lamb remained relatively calm despite the absence of its mother."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The little girl fed the lamb remained relatively calm despite having asked for beef.",
+    "prefix": "The little girl fed the lamb",
+    "control": "The little girl fed the lamb from a bottle every morning.",
+    "unambiguous": [
+      "The little girl who was fed the lamb remained relatively calm despite having asked for beef."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The yoga instructor demonstrated the position demanded immense physical effort from everyone.",
+    "prefix": "The yoga instructor demonstrated the position",
+    "control": "The yoga instructor demonstrated the position on a mat at the front.",
+    "unambiguous": [
+      "The yoga instructor demonstrated that the position demanded immense physical effort from everyone."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The yoga instructor offered the position demanded immense physical effort from everyone.",
+    "prefix": "The yoga instructor offered the position",
+    "control": "The yoga instructor offered the position began teaching the next week.",
+    "unambiguous": [
+      "The yoga instructor who was offered the position demanded immense physical effort from everyone."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The governor noticed the contract received sweeping support across the entire state.",
+    "prefix": "The governor noticed the contract",
+    "control": "The governor noticed the contract had an unusual clause.",
+    "unambiguous": [
+      "The governor noticed that the contract received sweeping support across the entire state."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The governor awarded the contract received sweeping support across the entire state.",
+    "prefix": "The governor awarded the contract",
+    "control": "The governor awarded the contract to the lowest bidder.",
+    "unambiguous": [
+      "The governor who was awarded the contract received sweeping support across the entire state."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The patient reported the treatment continued causing uncomfortable side effects like nausea.",
+    "prefix": "The patient reported the treatment",
+    "control": "The patient reported the treatment to the insurance company.",
+    "unambiguous": [
+      "The patient reported that the treatment continued causing uncomfortable side effects like nausea."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The patient refused the treatment continued causing uncomfortable scenes in the ER.",
+    "prefix": "The patient refused the treatment",
+    "control": "The patient refused the treatment after reading the side effects.",
+    "unambiguous": [
+      "The patient who was refused the treatment continued causing uncomfortable scenes in the ER."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The operator observed the machine started working efficiently all of a sudden.",
+    "prefix": "The operator observed the machine",
+    "control": "The operator observed the machine from behind the safety line.",
+    "unambiguous": [
+      "The operator observed that the machine started working efficiently all of a sudden."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The operator brought the machine started working efficiently with the added automation.",
+    "prefix": "The operator brought the machine",
+    "control": "The operator brought the machine to full speed gradually.",
+    "unambiguous": [
+      "The operator who was brought the machine started working efficiently with the added automation."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The dancer knew the ballet achieved incredible success for a small local production.",
+    "prefix": "The dancer knew the ballet",
+    "control": "The dancer knew the ballet from years of rehearsal.",
+    "unambiguous": [
+      "The dancer knew that the ballet achieved incredible success for a small local production."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The dancer assigned the ballet achieved incredible success for a new performer.",
+    "prefix": "The dancer assigned the ballet",
+    "control": "The dancer assigned the ballet to the younger students.",
+    "unambiguous": [
+      "The dancer who was assigned the ballet achieved incredible success for a new performer."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The contestant revealed the money became unavailable to him when the show\\'s budget shrank.",
+    "prefix": "The contestant revealed the money",
+    "control": "The contestant revealed the money with a dramatic flourish.",
+    "unambiguous": [
+      "The contestant revealed that the money became unavailable to him when the show\\'s budget shrank."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The contestant paid the money became unavailable and suddenly terminated his contract.",
+    "prefix": "The contestant paid the money",
+    "control": "The contestant paid the money in cash at the registration desk.",
+    "unambiguous": [
+      "The contestant who was paid the money became unavailable and suddenly terminated his contract."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The new chef claimed the restaurant separated mediocre cooks from gifted ones.",
+    "prefix": "The new chef claimed the restaurant",
+    "control": "The new chef claimed the restaurant served the best steak in the city.",
+    "unambiguous": [
+      "The new chef claimed that the restaurant separated mediocre cooks from gifted ones."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The new chef offered the restaurant separated mediocre cooks from gifted ones.",
+    "prefix": "The new chef offered the restaurant",
+    "control": "The new chef offered the restaurant a completely revised menu.",
+    "unambiguous": [
+      "The new chef who was offered the restaurant separated mediocre cooks from gifted ones."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The apprentice baker discovered the oven produced smaller cakes because it heated too fast.",
+    "prefix": "The apprentice baker discovered the oven",
+    "control": "The apprentice baker discovered the oven in the back of the supply room.",
+    "unambiguous": [
+      "The apprentice baker discovered that the oven produced smaller cakes because it heated too fast."
+    ],
+    "type": "NPS",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The apprentice baker assigned the oven produced smaller cakes because he lacked experience.",
+    "prefix": "The apprentice baker assigned the oven",
+    "control": "The apprentice baker assigned the oven to the morning bread shift.",
+    "unambiguous": [
+      "The apprentice baker who was assigned the oven produced smaller cakes because he lacked experience."
+    ],
+    "type": "MVRR",
+    "source": "sap_benchmark"
+  },
+  {
+    "sentence": "The woman brought the sandwich from the kitchen fell in the dining room",
+    "prefix": "The woman brought the sandwich from the kitchen",
+    "control": "The woman brought the sandwich from the kitchen to the dining table.",
+    "unambiguous": [
+      "The woman who was brought the sandwich from the kitchen fell in the dining room",
+      "The woman given the sandwich from the kitchen fell in the dining room",
+      "The woman who was given the sandwich from the kitchen fell in the dining room"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The convict walked into the dark cell tried to escape but failed",
+    "prefix": "The convict walked into the dark cell",
+    "control": "The convict walked into the dark cell for the last time.",
+    "unambiguous": [
+      "The convict who was walked into the dark cell tried to escape but failed",
+      "The convict taken into the dark cell tried to escape but failed",
+      "The convict who was taken into the dark cell tried to escape but failed"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The prisoners hit for hours and hours confessed to crimes they never committed",
+    "prefix": "The prisoners hit for hours and hours",
+    "control": "The prisoners hit for hours and hours during the work detail.",
+    "unambiguous": [
+      "The prisoners who were hit for hours and hours confessed to crimes they never committed",
+      "The prisoners beaten for hours and hours confessed to crimes they never committed",
+      "The prisoners who were beaten for hours and hours confessed to crimes they never committed"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The business expanded into an empire was sold for billions of dollars",
+    "prefix": "The business expanded into an empire",
+    "control": "The business expanded into an empire from a single storefront.",
+    "unambiguous": [
+      "The business that was expanded into an empire was sold for billions of dollars",
+      "The business grown into an empire was sold for billions of dollars",
+      "The business that was grown into an empire was sold for billions of dollars"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The mice consumed rapidly and entirely were carrying a rare bacteria",
+    "prefix": "The mice consumed rapidly and entirely",
+    "control": "The mice consumed rapidly and entirely the block of cheese.",
+    "unambiguous": [
+      "The mice that were consumed rapidly and entirely were carrying a rare bacteria",
+      "The mice that were consumed rapidly and entirely were carrying a rare bacteria"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The lawyer pledged to keep silent was discovered to have broken his promise",
+    "prefix": "The lawyer pledged to keep silent",
+    "control": "The lawyer pledged to keep silent about the settlement terms.",
+    "unambiguous": [
+      "The lawyer that was pledged to keep silent was discovered to have broken his promise",
+      "The lawyer committed to keep silent was discovered to have broken his promise",
+      "The lawyer who was committed to keep silent was discovered to have broken his promise"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The child kicked in the chaos found her way back home",
+    "prefix": "The child kicked in the chaos",
+    "control": "The child kicked in the chaos of the playground fight.",
+    "unambiguous": [
+      "The child who was kicked in the chaos found her way back home",
+      "The child forgotten in the chaos found her way back home",
+      "The child who was forgotten in the chaos found her way back home"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The horses raced past the barn fell into a swamp",
+    "prefix": "The horses raced past the barn",
+    "control": "The horses raced past the barn in under ten seconds.",
+    "unambiguous": [
+      "The horses that were raced past the barn fell into a swamp",
+      "The horses taken past the barn fell into a swamp",
+      "The horses that were taken past the barn fell into a swamp"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The artist painted a impressionist portrait was impressed with the work",
+    "prefix": "The artist painted a impressionist portrait",
+    "control": "The artist painted a impressionist portrait in under two hours.",
+    "unambiguous": [
+      "The artist who was painted a impressionist portrait was impressed with the work",
+      "The artist drawn a impressionist portrait was impressed with the work",
+      "The artist who was drawn a impressionist portrait was impressed with the work"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The car steered into the parking lot crashed into a concrete wall",
+    "prefix": "The car steered into the parking lot",
+    "control": "The car steered into the parking lot after circling the block.",
+    "unambiguous": [
+      "The car that was steered into the parking lot crashed into a concrete wall",
+      "The car driven into the parking lot crashed into a concrete wall",
+      "The car that was driven into the parking lot crashed into a concrete wall"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The campaign intended to be very popular was still unsuccessful",
+    "prefix": "The campaign intended to be very popular",
+    "control": "The campaign intended to be very popular fell flat with voters.",
+    "unambiguous": [
+      "The campaign that was intended to be very popular was still unsuccessful",
+      "The campaign known to be very popular was still unsuccessful",
+      "The campaign that was known to be very popular was still unsuccessful"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The student composed a carefully worded excuse forgot to give it to the teacher",
+    "prefix": "The student composed a carefully worded excuse",
+    "control": "The student composed a carefully worded excuse with help from a friend.",
+    "unambiguous": [
+      "The student who was composed a carefully worded excuse forgot to give it to the teacher",
+      "The student written a carefully worded excuse forgot to give it to the teacher",
+      "The student who was written a carefully worded excuse forgot to give it to the teacher"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The television show started three weeks ago was canceled immediately",
+    "prefix": "The television show started three weeks ago",
+    "control": "The television show started three weeks ago on the streaming platform.",
+    "unambiguous": [
+      "The television show that was started three weeks ago was canceled immediately",
+      "The television show begun three weeks ago was canceled immediately",
+      "The television show that was begun three weeks ago was canceled immediately"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The boys performed an unsolicited favor appreciated the person who helped them",
+    "prefix": "The boys performed an unsolicited favor",
+    "control": "The boys performed an unsolicited favor for the elderly neighbor.",
+    "unambiguous": [
+      "The boys who were performed an unsolicited favor appreciated the person who helped them",
+      "The boys done an unsolicited favor appreciated the person who helped them",
+      "The boys who were done an unsolicited favor appreciated the person who helped them"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The player tossed the baseball dropped it on the ground",
+    "prefix": "The player tossed the baseball",
+    "control": "The player tossed the baseball to warmup between innings.",
+    "unambiguous": [
+      "The player who was tossed the baseball dropped it on the ground",
+      "The player thrown the baseball dropped it on the ground",
+      "The player who was thrown the baseball dropped it on the ground"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The men discussed in the neighborhood died from cancer",
+    "prefix": "The men discussed in the neighborhood",
+    "control": "The men discussed in the neighborhood for over an hour.",
+    "unambiguous": [
+      "The men who were discussed in the neighborhood died from cancer",
+      "The man known in the neighborhood died from cancer",
+      "The man who was known in the neighborhood died from cancer"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The child jumped past the swings was upset about it",
+    "prefix": "The child jumped past the swings",
+    "control": "The child jumped past the swings to reach the sandbox.",
+    "unambiguous": [
+      "The child who was jumped past the swings was upset about it",
+      "The child led past the swings was upset about it",
+      "The child who was led past the swings was upset about it"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The students prepared a fancy dinner ate the meal quickly",
+    "prefix": "The students prepared a fancy dinner",
+    "control": "The students prepared a fancy dinner in under two hours.",
+    "unambiguous": [
+      "The students who were prepared a fancy dinner ate the meal quickly",
+      "The students gotten a fancy dinner ate the meal quickly",
+      "The students who were gotten a fancy dinner ate the meal quickly"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The infant fed during the night yelled intensely",
+    "prefix": "The infant fed during the night",
+    "control": "The infant fed during the night at eleven and again at three.",
+    "unambiguous": [
+      "The infant that was fed during the night yelled intensely",
+      "The infant aroused during the night yelled intensely",
+      "The infant that was aroused during the night yelled intensely"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The refugee sheltered in the basement departed during the night",
+    "prefix": "The refugee sheltered in the basement",
+    "control": "The refugee sheltered in the basement with five other families.",
+    "unambiguous": [
+      "The refugee who was sheltered in the basement departed during the night",
+      "The refugee hidden in the basement departed during the night",
+      "The refugee who was hidden in the basement departed during the night"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The dog walked on the beach chased after a bird",
+    "prefix": "The dog walked on the beach",
+    "control": "The dog walked on the beach at sunrise every morning.",
+    "unambiguous": [
+      "The dog that was walked on the beach chased after a bird",
+      "The dog seen on the beach chased after a bird",
+      "The dog that was seen on the beach chased after a bird"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The ship steered off course sank in the storm",
+    "prefix": "The ship steered off course",
+    "control": "The ship steered off course by several nautical miles.",
+    "unambiguous": [
+      "The ship that was steered off course sank in the storm",
+      "The ship blown off course sank in the storm",
+      "The ship that was blown off course sank in the storm"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The fans cheered at the concert took photos with their phones",
+    "prefix": "The fans cheered at the concert",
+    "control": "The fans cheered at the concert for over three hours.",
+    "unambiguous": [
+      "The fans that were cheered at the concert took photos with their phones",
+      "The fans emboldened at the concert took photos with their phones",
+      "The fans that were emboldened at the concert took photos with their phones"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The boat steered to the sea disappeared in the storm",
+    "prefix": "The boat steered to the sea",
+    "control": "The boat steered to the sea with a full cargo.",
+    "unambiguous": [
+      "The boat that was steered in the sea disappeared in the storm",
+      "The boat sunk in the sea disappeared in the storm",
+      "The boat that was sunk in the sea disappeared in the storm"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The couple bought the apartment moved to a different city",
+    "prefix": "The couple bought the apartment",
+    "control": "The couple bought the apartment for well under asking price.",
+    "unambiguous": [
+      "The couple that was bought the apartment moved to a different city",
+      "The couple shown the apartment moved to a different city",
+      "The couple that was shown the apartment moved to a different city"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The girl made a new blanket lost it during the trip",
+    "prefix": "The girl made a new blanket",
+    "control": "The girl made a new blanket for her baby sister.",
+    "unambiguous": [
+      "The girl who was made a new blanket lost it during the trip",
+      "The girl given a new blanket lost it during the trip",
+      "The girl who was given a new blanket lost it during the trip"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The airplane landed in the mountains broke down during the ice storm",
+    "prefix": "The airplane landed in the mountains",
+    "control": "The airplane landed in the mountains after losing an engine.",
+    "unambiguous": [
+      "The airplane that was landed in the mountains broke down",
+      "The airplane flown in the mountains broke down during the ice storm",
+      "The airplane that was flown in the mountains broke down during the ice storm"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The child carried down the hall yelled at the top of his lungs",
+    "prefix": "The child carried down the hall",
+    "control": "The child carried down the hall a stack of library books.",
+    "unambiguous": [
+      "The child that was carried down the hall yelled at the top of his lungs",
+      "The child borne down the hall yelled at the top of his lungs",
+      "The child that was borne down the hall yelled at the top of his lungs"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr"
+  },
+  {
+    "sentence": "The woman brought the sandwich from the kitchen with a new microwave fell in the dining room",
+    "prefix": "The woman brought the sandwich from the kitchen with a new microwave",
+    "control": "The woman brought the sandwich from the kitchen with a new microwave still in its box.",
+    "unambiguous": [
+      "The woman who was brought the sandwich from the kitchen with a new microwave fell in the dining room",
+      "The woman given the sandwich from the kitchen with a new microwave fell in the dining room",
+      "The woman who was given the sandwich from the kitchen with a new microwave fell in the dining room"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The convict walked into the dark cell in the castle tried to escape but failed",
+    "prefix": "The convict walked into the dark cell in the castle",
+    "control": "The convict walked into the dark cell in the castle for the first time.",
+    "unambiguous": [
+      "The convict who was walked into the dark cell in the castle tried to escape but failed",
+      "The convict taken into the dark cell in the castle tried to escape but failed",
+      "The convict who was taken into the dark cell in the castle tried to escape but failed"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The prisoners hit for hours and hours in the morning confessed to crimes they never committed",
+    "prefix": "The prisoners hit for hours and hours in the morning",
+    "control": "The prisoners hit for hours and hours in the morning before the guards rotated.",
+    "unambiguous": [
+      "The prisoners who were hit for hours and hours in the morning confessed to crimes they never committed",
+      "The prisoners beaten for hours and hours in the morning confessed to crimes they never committed",
+      "The prisoners who were beaten for hours and hours in the morning confessed to crimes they never committed"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The business expanded into an empire spanning multiple countries was sold for billions of dollars",
+    "prefix": "The business expanded into an empire spanning multiple countries",
+    "control": "The business expanded into an empire spanning multiple countries in just ten years.",
+    "unambiguous": [
+      "The business that was expanded into an empire spanning multiple countries was sold for billions of dollars",
+      "The business grown into an empire spanning multiple countries was sold for billions of dollars",
+      "The business that was grown into an empire spanning multiple countries was sold for billions of dollars"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The mice consumed rapidly and entirely due to great hunger were carrying a rare bacteria",
+    "prefix": "The mice consumed rapidly and entirely due to great hunger",
+    "control": "The mice consumed rapidly and entirely due to great hunger every scrap of food in sight.",
+    "unambiguous": [
+      "The mice that were consumed rapidly and entirely due to great hunger were carrying a rare bacteria",
+      "The mice that were consumed rapidly and entirely due to great hunger were carrying a rare bacteria"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The lawyer pledged to keep silent due to security issues was discovered to have broken his promise",
+    "prefix": "The lawyer pledged to keep silent due to security issues",
+    "control": "The lawyer pledged to keep silent due to security issues at the government's request.",
+    "unambiguous": [
+      "The lawyer that was pledged to keep silent due to security issues was discovered to have broken his promise",
+      "The lawyer committed to keep silent due to security issues was discovered to have broken his promise",
+      "The lawyer who was committed to keep silent due to security issues was discovered to have broken his promise"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The child kicked in the chaos of the fight found her way back home",
+    "prefix": "The child kicked in the chaos of the fight",
+    "control": "The child kicked in the chaos of the fight before anyone could stop him.",
+    "unambiguous": [
+      "The child who was kicked in the chaos of the fight found her way back home",
+      "The child forgotten in the chaos of the fight found her way back home",
+      "The child who was forgotten in the chaos of the fight found her way back home"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The horses raced past the barn in the countryside fell into a swamp",
+    "prefix": "The horses raced past the barn in the countryside",
+    "control": "The horses raced past the barn in the countryside with their manes flying.",
+    "unambiguous": [
+      "The horses that were raced past the barn in the countryside fell into a swamp",
+      "The horses taken past the barn in the countryside fell into a swamp",
+      "The horses that were taken past the barn in the countryside fell into a swamp"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The artist painted a impressionist portrait of the woman was impressed with the work",
+    "prefix": "The artist painted a impressionist portrait of the woman",
+    "control": "The artist painted a impressionist portrait of the woman on a large canvas.",
+    "unambiguous": [
+      "The artist who was painted a impressionist portrait of the woman was impressed with the work",
+      "The artist drawn a impressionist portrait of the woman was impressed with the work",
+      "The artist who was drawn a impressionist portrait of the woman was impressed with the work"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The car steered into the parking lot filled with people crashed into a concrete wall",
+    "prefix": "The car steered into the parking lot filled with people",
+    "control": "The car steered into the parking lot filled with people at a walking pace.",
+    "unambiguous": [
+      "The car that was steered into the parking lot filled with people crashed into a concrete wall",
+      "The car driven into the parking lot filled with people crashed into a concrete wall",
+      "The car that was driven into the parking lot filled with people crashed into a concrete wall"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The campaign intended to be very popular among the masses was still unsuccessful",
+    "prefix": "The campaign intended to be very popular among the masses",
+    "control": "The campaign intended to be very popular among the masses ran for six months.",
+    "unambiguous": [
+      "The campaign that was intended to be very popular among the masses was still unsuccessful",
+      "The campaign known to be very popular among the masses was still unsuccessful",
+      "The campaign that was known to be very popular among the masses was still unsuccessful"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The student composed a carefully worded excuse filled with lies forgot to give it to the teacher",
+    "prefix": "The student composed a carefully worded excuse filled with lies",
+    "control": "The student composed a carefully worded excuse filled with lies for the third time.",
+    "unambiguous": [
+      "The student who was composed a carefully worded excuse filled with lies forgot to give it to the teacher",
+      "The student written a carefully worded excuse filled with lies forgot to give it to the teacher",
+      "The student who was written a carefully worded excuse filled with lies forgot to give it to the teacher"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The television show started three weeks ago on a cable channel was canceled immediately",
+    "prefix": "The television show started three weeks ago on a cable channel",
+    "control": "The television show started three weeks ago on a cable channel with a star-studded cast.",
+    "unambiguous": [
+      "The television show that was started three weeks ago on a cable channel was canceled immediately",
+      "The television show begun three weeks ago on a cable channel was canceled immediately",
+      "The television show that was begun three weeks ago on a cable channel was canceled immediately"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The boys performed an unsolicited favor for no good reason appreciated the person who helped them",
+    "prefix": "The boys performed an unsolicited favor for no good reason",
+    "control": "The boys performed an unsolicited favor for no good reason on a Saturday morning.",
+    "unambiguous": [
+      "The boys who were performed an unsolicited favor for no good reason appreciated the person who helped them",
+      "The boys done an unsolicited favor for no good reason appreciated the person who helped them",
+      "The boys who were done an unsolicited favor for no good reason appreciated the person who helped them"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The player tossed the baseball during the game dropped it on the ground",
+    "prefix": "The player tossed the baseball during the game",
+    "control": "The player tossed the baseball during the game to complete the double play.",
+    "unambiguous": [
+      "The player who was tossed the baseball during the game dropped it on the ground",
+      "The player thrown the baseball during the game dropped it on the ground",
+      "The player who was thrown the baseball during the game dropped it on the ground"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The men discussed in the neighborhood by most of the residents died from cancer",
+    "prefix": "The men discussed in the neighborhood by most of the residents",
+    "control": "The men discussed in the neighborhood by most of the residents had lived there for decades.",
+    "unambiguous": [
+      "The men who were discussed in the neighborhood by most of the residents died from cancer",
+      "The man known in the neighborhood by most of the residents died from cancer",
+      "The man who was known in the neighborhood by most of the residents died from cancer"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The child jumped past the swings in the park was upset about it",
+    "prefix": "The child jumped past the swings in the park",
+    "control": "The child jumped past the swings in the park on a sunny afternoon.",
+    "unambiguous": [
+      "The child who was jumped past the swings in the park was upset about it",
+      "The child led past the swings in the park was upset about it",
+      "The child who was led past the swings in the park was upset about it"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The students prepared a fancy dinner for the holidays ate the meal quickly",
+    "prefix": "The students prepared a fancy dinner for the holidays",
+    "control": "The students prepared a fancy dinner for the holidays to share with the dorm.",
+    "unambiguous": [
+      "The students who were prepared a fancy dinner for the holidays ate the meal quickly",
+      "The students gotten a fancy dinner for the holidays ate the meal quickly",
+      "The students who were gotten a fancy dinner for the holidays ate the meal quickly"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The infant fed during the night in the middle of winter yelled intensely",
+    "prefix": "The infant fed during the night in the middle of winter",
+    "control": "The infant fed during the night in the middle of winter with a strong appetite.",
+    "unambiguous": [
+      "The infant that was fed during the night in the middle of winter yelled intensely",
+      "The infant aroused during the night in the middle of winter yelled intensely",
+      "The infant that was aroused during the night in the middle of winter yelled intensely"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The refugee sheltered in the basement filled with mold departed during the night",
+    "prefix": "The refugee sheltered in the basement filled with mold",
+    "control": "The refugee sheltered in the basement filled with mold for nearly a week.",
+    "unambiguous": [
+      "The refugee who was sheltered in the basement filled with mold departed during the night",
+      "The refugee hidden in the basement filled with mold departed during the night",
+      "The refugee who was hidden in the basement filled with mold departed during the night"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The dog walked on the beach by the sea chased after a bird",
+    "prefix": "The dog walked on the beach by the sea",
+    "control": "The dog walked on the beach by the sea as the sun set.",
+    "unambiguous": [
+      "The dog that was walked on the beach by the sea chased after a bird",
+      "The dog seen on the beach by the sea chased after a bird",
+      "The dog that was seen on the beach by the sea chased after a bird"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The ship steered off course in the Pacific Ocean sank in the storm",
+    "prefix": "The ship steered off course in the Pacific Ocean",
+    "control": "The ship steered off course in the Pacific Ocean during the night watch.",
+    "unambiguous": [
+      "The ship that was steered off course in the Pacific Ocean sank in the storm",
+      "The ship blown off course in the Pacific Ocean sank in the storm",
+      "The ship that was blown off course in the Pacific Ocean sank in the storm"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The fans cheered at the concert by the performers took photos with their phones",
+    "prefix": "The fans cheered at the concert by the performers",
+    "control": "The fans cheered at the concert by the performers from start to finish.",
+    "unambiguous": [
+      "The fans that were cheered at the concert by the performers took photos with their phones",
+      "The fans emboldened at the concert by the performers took photos with their phones",
+      "The fans that were emboldened at the concert by the performers took photos with their phones"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The boat steered to the sea filled with fish disappeared in the storm",
+    "prefix": "The boat steered to the sea filled with fish",
+    "control": "The boat steered to the sea filled with fish for the annual harvest.",
+    "unambiguous": [
+      "The boat that was steered in the sea filled with fish disappeared in the storm",
+      "The boat sunk in the sea filled with fish disappeared in the storm",
+      "The boat that was sunk in the sea filled with fish disappeared in the storm"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The couple bought the apartment with new wood floors moved to a different city",
+    "prefix": "The couple bought the apartment with new wood floors",
+    "control": "The couple bought the apartment with new wood floors for a great price.",
+    "unambiguous": [
+      "The couple that was bought the apartment with new wood floors moved to a different city",
+      "The couple shown the apartment with new wood floors moved to a different city",
+      "The couple that was shown the apartment with new wood floors moved to a different city"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The girl made a new blanket out of expensive material lost it during the trip",
+    "prefix": "The girl made a new blanket out of expensive material",
+    "control": "The girl made a new blanket out of expensive material for the craft fair.",
+    "unambiguous": [
+      "The girl who was made a new blanket out of expensive material lost it during the trip",
+      "The girl given a new blanket out of expensive material lost it during the trip",
+      "The girl who was given a new blanket out of expensive material lost it during the trip"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The airplane landed in the mountains in the winter broke down during the ice storm",
+    "prefix": "The airplane landed in the mountains in the winter",
+    "control": "The airplane landed in the mountains in the winter after circling for an hour.",
+    "unambiguous": [
+      "The airplane that was landed in the mountains in the winter broke down",
+      "The airplane flown in the mountains in the winter broke down during the ice storm",
+      "The airplane that was flown in the mountains in the winter broke down during the ice storm"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The child carried down the hall of the school yelled at the top of his lungs",
+    "prefix": "The child carried down the hall of the school",
+    "control": "The child carried down the hall of the school on the last day.",
+    "unambiguous": [
+      "The child that was carried down the hall of the school yelled at the top of his lungs",
+      "The child borne down the hall of the school yelled at the top of his lungs",
+      "The child that was borne down the hall of the school yelled at the top of his lungs"
+    ],
+    "type": "MVRR",
+    "source": "syntaxgym/mvrr_mod"
+  },
+  {
+    "sentence": "The faithful employees understood the technical contract would be changed very soon.",
+    "prefix": "The faithful employees understood the technical contract",
+    "control": "The faithful employees understood the technical contract better than the lawyers.",
+    "unambiguous": [
+      "The faithful employees understood that the technical contract would be changed very soon."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The American diplomats understood the unpopular treaty would be altered at the conference.",
+    "prefix": "The American diplomats understood the unpopular treaty",
+    "control": "The American diplomats understood the unpopular treaty after weeks of negotiation.",
+    "unambiguous": [
+      "The American diplomats understood that the unpopular treaty would be altered at the conference."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The young woman accepted the valuable trophy had to be returned to the committee.",
+    "prefix": "The young woman accepted the valuable trophy",
+    "control": "The young woman accepted the valuable trophy with tears in her eyes.",
+    "unambiguous": [
+      "The young woman accepted that the valuable trophy had to be returned to the committee."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The young man accepted the enormous car looked more expensive than before.",
+    "prefix": "The young man accepted the enormous car",
+    "control": "The young man accepted the enormous car as a graduation gift.",
+    "unambiguous": [
+      "The young man accepted that the enormous car looked more expensive than before."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The extremely old man recalled the angry nurse had complained to the doctor.",
+    "prefix": "The extremely old man recalled the angry nurse",
+    "control": "The extremely old man recalled the angry nurse from his hospital stay.",
+    "unambiguous": [
+      "The extremely old man recalled that the angry nurse had complained to the doctor."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The foreign traveller heard the loud clock had woken everybody up in the youth hostel.",
+    "prefix": "The foreign traveller heard the loud clock",
+    "control": "The foreign traveller heard the loud clock from the hotel room.",
+    "unambiguous": [
+      "The foreign traveller heard that the loud clock had woken everybody up in the youth hostel."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The tabloid journalist confirmed the sensational story would be published on the front page.",
+    "prefix": "The tabloid journalist confirmed the sensational",
+    "control": "The tabloid journalist confirmed the sensational allegations and printed them.",
+    "unambiguous": [
+      "The tabloid journalist confirmed that the sensational story would be published on the front page."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The construction workers maintained the rickety walls fell down in a heap.",
+    "prefix": "The construction workers maintained the rickety walls",
+    "control": "The construction workers maintained the rickety walls with patching and paint.",
+    "unambiguous": [
+      "The construction workers maintained that the rickety walls fell down in a heap."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The clumsy apprentice forgot the rusty bicycle was standing in the garage.",
+    "prefix": "The clumsy apprentice forgot the rusty bicycle",
+    "control": "The clumsy apprentice forgot the rusty bicycle at the corner store.",
+    "unambiguous": [
+      "The clumsy apprentice forgot that the rusty bicycle was standing in the garage."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The industrial committee mentioned the complex issue would cause a problem at the meeting.",
+    "prefix": "The industrial committee mentioned the complex issue",
+    "control": "The industrial committee mentioned the complex issue at the annual conference.",
+    "unambiguous": [
+      "The industrial committee mentioned that the complex issue would cause a problem at the meeting."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The British army found the expensive medical supplies saved many lives during the conflict.",
+    "prefix": "The British army found the expensive medical supplies",
+    "control": "The British army found the expensive medical supplies in an abandoned warehouse.",
+    "unambiguous": [
+      "The British army found that the expensive medical supplies saved many lives during the conflict."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The Labour candidate found the secret documents could be very useful to the press.",
+    "prefix": "The Labour candidate found the secret documents",
+    "control": "The Labour candidate found the secret documents in a filing cabinet.",
+    "unambiguous": [
+      "The Labour candidate found that the secret documents could be very useful to the press."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The chartered accountants announced the impressive results had appeared in the report.",
+    "prefix": "The chartered accountants announced the impressive results",
+    "control": "The chartered accountants announced the impressive results at the quarterly meeting.",
+    "unambiguous": [
+      "The chartered accountants announced that the impressive results had appeared in the report."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The corporate lawyers announced the controversial proposals would be sent for approval.",
+    "prefix": "The corporate lawyers announced the controversial proposals",
+    "control": "The corporate lawyers announced the controversial proposals at a press briefing.",
+    "unambiguous": [
+      "The corporate lawyers announced that the controversial proposals would be sent for approval."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The tall football manager discovered the skillful player tried to show off all the time.",
+    "prefix": "The tall football manager discovered the skillful player",
+    "control": "The tall football manager discovered the skillful player at a youth match.",
+    "unambiguous": [
+      "The tall football manager discovered that the skillful player tried to show off all the time."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The tall theatre director discovered the young actor got stage fright very badly.",
+    "prefix": "The tall theatre director discovered the young actor",
+    "control": "The tall theatre director discovered the young actor in a community play.",
+    "unambiguous": [
+      "The tall theatre director discovered that the young actor got stage fright very badly."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The young woman noticed the fluffy sweater changed shape quite badly.",
+    "prefix": "The young woman noticed the fluffy sweater",
+    "control": "The young woman noticed the fluffy sweater in the shop window.",
+    "unambiguous": [
+      "The young woman noticed that the fluffy sweater changed shape quite badly."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The younger children noticed the woollen socks were the wrong colour for school.",
+    "prefix": "The younger children noticed the woollen socks",
+    "control": "The younger children noticed the woollen socks in the laundry basket.",
+    "unambiguous": [
+      "The younger children noticed that the woollen socks were the wrong colour for school."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The Japanese coach party saw the famous palace was being restored very carefully.",
+    "prefix": "The Japanese coach party saw the famous palace",
+    "control": "The Japanese coach party saw the famous palace from across the river.",
+    "unambiguous": [
+      "The Japanese coach party saw that the famous palace was being restored very carefully."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The Australian woman saw the famous doctor had been drinking quite a lot.",
+    "prefix": "The Australian woman saw the famous doctor",
+    "control": "The Australian woman saw the famous doctor on television last night.",
+    "unambiguous": [
+      "The Australian woman saw that the famous doctor had been drinking quite a lot."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The old market researcher acknowledged the clever assistant worked very hard on the project.",
+    "prefix": "The old market researcher acknowledged the clever assistant",
+    "control": "The old market researcher acknowledged the clever assistant in the acknowledgments section.",
+    "unambiguous": [
+      "The old market researcher acknowledged that the clever assistant worked very hard on the project."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The tall lawyer acknowledged the young witness had been successful in convincing the jury.",
+    "prefix": "The tall lawyer acknowledged the young witness",
+    "control": "The tall lawyer acknowledged the young witness and asked to proceed.",
+    "unambiguous": [
+      "The tall lawyer acknowledged that the young witness had been successful in convincing the jury."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The tall knights remembered the ancient castle had been defended very heavily.",
+    "prefix": "The tall knights remembered the ancient castle",
+    "control": "The tall knights remembered the ancient castle as the place they earned their armor.",
+    "unambiguous": [
+      "The tall knights remembered that the ancient castle had been defended very heavily."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The tall fighter pilots remembered the camouflaged airfield was evacuated very quickly.",
+    "prefix": "The tall fighter pilots remembered the camouflaged airfield",
+    "control": "The tall fighter pilots remembered the camouflaged airfield from their training days.",
+    "unambiguous": [
+      "The tall fighter pilots remembered that the camouflaged airfield was evacuated very quickly."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The old soldiers remembered the industrial town had been flattened in the bombing raid.",
+    "prefix": "The old soldiers remembered the industrial town",
+    "control": "The old soldiers remembered the industrial town before it was rebuilt.",
+    "unambiguous": [
+      "The old soldiers remembered that the industrial town had been flattened in the bombing raid."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The big policemen remembered the remote peace camp had been filmed by the BBC.",
+    "prefix": "The big policemen remembered the remote peace camp",
+    "control": "The big policemen remembered the remote peace camp from their early careers.",
+    "unambiguous": [
+      "The big policemen remembered that the remote peace camp had been filmed by the BBC."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The academic publisher read the controversial manuscript had been reviewed by a professor.",
+    "prefix": "The academic publisher read the controversial manuscript",
+    "control": "The academic publisher read the controversial manuscript in a single sitting.",
+    "unambiguous": [
+      "The academic publisher read that the controversial manuscript had been reviewed by a professor."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The contemporary fashion writer read the famous magazine was having trouble with its finances.",
+    "prefix": "The contemporary fashion writer read the famous magazine",
+    "control": "The contemporary fashion writer read the famous magazine and wrote a critique.",
+    "unambiguous": [
+      "The contemporary fashion writer read that the famous magazine was having trouble with its finances."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The tall archaeologist revealed the valuable coins had gone missing from the site.",
+    "prefix": "The tall archaeologist revealed the valuable coins",
+    "control": "The tall archaeologist revealed the valuable coins to the museum director.",
+    "unambiguous": [
+      "The tall archaeologist revealed that the valuable coins had gone missing from the site."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The French male stripper revealed his oily chest felt uncomfortable in the heat.",
+    "prefix": "The French male stripper revealed his oily chest",
+    "control": "The French male stripper revealed his oily chest to the cheering crowd.",
+    "unambiguous": [
+      "The French male stripper revealed that his oily chest felt uncomfortable in the heat."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The young journalist revealed the corrupt politician received some payments from the millionaire.",
+    "prefix": "The young journalist revealed the corrupt politician",
+    "control": "The young journalist revealed the corrupt politician in a front-page story.",
+    "unambiguous": [
+      "The young journalist revealed that the corrupt politician received some payments from the millionaire."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  },
+  {
+    "sentence": "The old secretary doubted the incriminating report would be distributed to many people.",
+    "prefix": "The old secretary doubted the incriminating report",
+    "control": "The old secretary doubted the incriminating report after reading it twice.",
+    "unambiguous": [
+      "The old secretary doubted that the incriminating report would be distributed to many people."
+    ],
+    "type": "NPS",
+    "source": "wang_sf/sturt"
+  }
+]

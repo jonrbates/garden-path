@@ -1,0 +1,418 @@
+[
+  {
+    "sentence": "The complex houses married and single soldiers and their families.",
+    "prefix": "The complex houses",
+    "type": "NPVP",
+    "source": "gpt-5-mini",
+    "control": "The complex houses were inspired by cubism.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The cotton clothing is made of grows in Mississippi.",
+    "prefix": "The cotton clothing is made of",
+    "type": "MVRR",
+    "source": "gpt-5-mini",
+    "control": "The cotton clothing is made of organic fibers imported from India.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The florist sent the flowers was pleased.",
+    "prefix": "The florist sent the flowers",
+    "type": "MVRR",
+    "source": "gpt-5-mini",
+    "control": "The florist sent the flowers to the wedding venue.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The girl told the story cried.",
+    "prefix": "The girl told the story",
+    "type": "MVRR",
+    "source": "gpt-5-mini",
+    "control": "The girl told the story about the horses.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The horse raced past the barn fell.",
+    "prefix": "The horse raced past the barn",
+    "type": "MVRR",
+    "source": "gpt-5-mini",
+    "control": "The horse raced past the barn toward the field.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The old man the boats.",
+    "prefix": "The old man",
+    "type": "NPVP",
+    "source": "gpt-5-mini",
+    "control": "The old man sat on the bench.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The old train the young.",
+    "prefix": "The old train",
+    "type": "NPVP",
+    "source": "gpt-5-mini",
+    "control": "The old train pulled into the station.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The prime number few.",
+    "prefix": "The prime number",
+    "type": "NPVP",
+    "source": "gpt-5-mini",
+    "control": "The prime number was on the book jacket.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The raft floated down the river sank.",
+    "prefix": "The raft floated down the river",
+    "type": "MVRR",
+    "source": "gpt-5-mini",
+    "control": "The raft floated down the river toward the campsite at the bend.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The criminal confessed his sins harmed no one.",
+    "prefix": "The criminal confessed his sins",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The criminal confessed his sins and begged for mercy.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The man hunting ducks under the limb.",
+    "prefix": "The man hunting ducks",
+    "type": "NPVP",
+    "source": "human",
+    "control": "The man hunting ducks is a senator.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The bank stated the investor robbed faced investigation.",
+    "prefix": "The bank stated the investor robbed",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The bank stated the investor robbed the branch during business hours.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The coach promised the player traded would start the next game.",
+    "prefix": "The coach promised the player",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The coach promised the player a starting position if he kept training.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The detective said the suspect released vanished without a trace.",
+    "prefix": "The detective said the suspect released",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The detective said the suspect released the hostage after lengthy negotiations.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The director admitted the actor fired gave the best audition.",
+    "prefix": "The director admitted the actor fired",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The director admitted the actor fired his assistant without proper notice.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The doctor said the nurse fired caused panic at the hospital.",
+    "prefix": "The doctor said the nurse fired",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The doctor said the nurse fired the intern for repeated negligence.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The early bird the worm frightened flew away.",
+    "prefix": "The early bird",
+    "type": "MVRR",
+    "source": "human",
+    "control": "The early bird frightened the worm.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The host claimed the guest offended apologized later that night.",
+    "prefix": "The host claimed the guest offended",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The host claimed the guest offended everyone with his remarks at dinner.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The judge told the jury members left early.",
+    "prefix": "The judge told the jury members",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The judge told the jury members to deliberate carefully before reaching a verdict.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The lawyer implied the witness accused misled the court.",
+    "prefix": "The lawyer implied the witness accused",
+    "type": "NPS",
+    "source": "human",
+    "control": "The lawyer implied the witness accused the defendant.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The man whistling tunes pianos.",
+    "prefix": "The man whistling tunes",
+    "type": "NPVP",
+    "source": "gpt-5-mini",
+    "control": "The man whistling tunes walked through the park on his way home.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The manager agreed the staff replaced needed more training.",
+    "prefix": "The manager agreed the staff replaced",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The manager agreed the staff replaced the copier with a newer model.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The parents warned the babysitter fired would not return.",
+    "prefix": "The parents warned the babysitter",
+    "type": "NPS",
+    "source": "human",
+    "control": "The parents warned the babysitter about the dangers.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The pilot announced the flight cancelled frustrated the passengers.",
+    "prefix": "The pilot announced the flight cancelled",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The pilot announced the flight cancelled due to severe weather conditions.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The professor said the student failed shocked the class.",
+    "prefix": "The professor said the student failed",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The professor said the student failed because of missing assignments.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The soldier reported the general promoted fled the country.",
+    "prefix": "The soldier reported the general promoted",
+    "type": "NPS",
+    "source": "gpt-5-mini",
+    "control": "The soldier reported the general promoted the colonel during the ceremony.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The tenant told the landlord evicted sued the company.",
+    "prefix": "The tenant told the landlord evicted",
+    "type": "NPS",
+    "source": "human",
+    "control": "The tenant told the landlord evicted to sue the board.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The tycoon sold the boat floated away.",
+    "prefix": "The tycoon sold the boat",
+    "type": "MVRR",
+    "source": "human",
+    "control": "The tycoon sold the boat last year.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The actor admired by many fans stalked was arrested yesterday.",
+    "prefix": "The actor admired by many fans stalked",
+    "type": "MVRR",
+    "source": "gpt-5-mini",
+    "control": "The actor admired by many fans stalked his co-star across multiple film sets.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The president announced the minister resigned angered the crowd.",
+    "prefix": "The president announced the minister resigned",
+    "type": "NPS",
+    "source": "human",
+    "control": "The president announced the minister resigned on Monday.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The rumor reported by the journalist shocked the editor spread quickly.",
+    "prefix": "The rumor reported by the journalist shocked the editor",
+    "type": "MVRR",
+    "source": "gpt-5-mini",
+    "control": "The rumor reported by the journalist shocked the editor.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The advice the mentor the student admired gave ruined his chances.",
+    "prefix": "The advice the mentor the student admired gave",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The book the librarian the patron trusted returned went missing again.",
+    "prefix": "The book the librarian the patron trusted returned",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The book the student the teacher scolded borrowed was missing.",
+    "prefix": "The book the student the teacher scolded borrowed",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The car the mechanic the customer recommended fixed broke down.",
+    "prefix": "The car the mechanic the customer recommended fixed",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The chef the critic the magazine hired praised cooked poorly.",
+    "prefix": "The chef the critic the magazine hired praised",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The coach the players the manager fired replaced resigned.",
+    "prefix": "The coach the players the manager fired replaced",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The decision the judge the lawyer challenged reversed stood.",
+    "prefix": "The decision the judge the lawyer challenged reversed",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The dinner the chef the critics applauded burned blackened the pan.",
+    "prefix": "The dinner the chef the critics applauded burned",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The dream the artist the gallery adored painted sold poorly.",
+    "prefix": "The dream the artist the gallery adored painted",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The friend the hero the villagers adored saved drowned last winter.",
+    "prefix": "The friend the hero the villagers adored saved",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The gift the aunt the family mentioned bought disappointed the child.",
+    "prefix": "The gift the aunt the family mentioned bought",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The gift the uncle the children loved brought caused an argument.",
+    "prefix": "The gift the uncle the children loved brought",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The key the locksmith the landlord recommended broke jammed the lock.",
+    "prefix": "The key the locksmith the landlord recommended broke",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The lesson the teacher the principal respected taught failed the class.",
+    "prefix": "The lesson the teacher the principal respected taught",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The letter the postman the mayor accused delivered contained threats.",
+    "prefix": "The letter the postman the mayor accused delivered",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The letters the assistant the boss dismissed typed contained errors.",
+    "prefix": "The letters the assistant the boss dismissed typed",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The man the detective the reporter interviewed suspected fled.",
+    "prefix": "The man the detective the reporter interviewed suspected",
+    "type": "CENTER_EMBED",
+    "source": "gpt-5-mini",
+    "control": null,
+    "unambiguous": []
+  },
+  {
+    "sentence": "The man hunting ducks tomatoes regularly.",
+    "prefix": "The man hunting ducks",
+    "type": "NPVP",
+    "source": "human",
+    "control": "The man hunting ducks returned home.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The crooked staff ran the department.",
+    "prefix": "The crooked staff",
+    "type": "NPVP",
+    "source": "human",
+    "control": "The crooked staff leaned against the wall.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "I read the book was bad.",
+    "prefix": "I read the book",
+    "type": "NPS",
+    "source": "human",
+    "control": "I read the book over the weekend.",
+    "unambiguous": []
+  },
+  {
+    "sentence": "The beautiful sunsets his apprehensions.",
+    "prefix": "The beautiful sunsets",
+    "type": "NPVP",
+    "source": "human",
+    "control": "The beautiful sunsets inspired the painter.",
+    "unambiguous": []
+  }
+]
